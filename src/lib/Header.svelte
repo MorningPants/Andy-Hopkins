@@ -1,6 +1,6 @@
 <div>
-	<img class="rose" src="/static/Rose_Icon.png" alt="Logo" height="100" />
-	<img class="title" src="/static/Andy_Hopkins.png" alt="Andy Hopkins" height="100" />
+	<img class="rose" src="/Rose_Icon.png" alt="Logo" height="100" />
+	<img class="title" src="/Andy_Hopkins.png" alt="Andy Hopkins" height="100" />
 </div>
 
 <style>
