@@ -1,15 +1,16 @@
 <script>
 	import Card from '../components/Card.svelte';
+	import { base } from '$app/paths';
 </script>
 <h1>Web Developer</h1>
 <div class="flex">
-	<img src="/hand-coding.svg" alt="Hand Coding" width="40%" />
+	<img src="{ base }/hand-coding.svg" alt="Hand Coding" width="40%" />
 	<div>
 		<h2>Some of my work:</h2>
 		<div class="flex wrap">
-			<Card link={"https://codepen.io/MorningPants"} src={'/Codepen.png'} alt={'Codepen'} />
-			<Card link={"https://skyschool.arizona.edu/"} src={'/SkySchool.png'} alt={'Arizona Sky School'} />
-			<Card link={"https://thrivefamilymassage.com"} src={'/Thrive.png'} alt={'Thrive Family Massage'} />
+			<Card link={"https://codepen.io/MorningPants"} src={{ base } + "/Codepen.png"} alt={'Codepen'} />
+			<Card link={"https://skyschool.arizona.edu/"} src={{ base } + '/SkySchool.png'} alt={'Arizona Sky School'} />
+			<Card link={"https://thrivefamilymassage.com"} src={{ base } + '/Thrive.png'} alt={'Thrive Family Massage'} />
 		</div>
 	</div>
 </div>

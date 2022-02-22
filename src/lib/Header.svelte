@@ -1,6 +1,10 @@
+<script>
+    import { base } from '$app/paths';
+  </script>
+
 <div>
-	<img class="rose" src="/Rose_Icon.png" alt="Logo" height="100" />
-	<img class="title" src="/Andy_Hopkins.png" alt="Andy Hopkins" height="100" />
+	<img class="rose" src="{ base }/Rose_Icon.png" alt="Logo" height="100" />
+	<img class="title" src="{ base }/Andy_Hopkins.png" alt="Andy Hopkins" height="100" />
 </div>
 
 <style>
