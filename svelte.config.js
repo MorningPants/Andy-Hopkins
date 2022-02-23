@@ -14,13 +14,13 @@ const config = {
 			pages: 'docs',
 			assets: 'docs',
 			fallback: null
-		})
-	},
-	// Comment the paths if wants to run in dev mode.
-	paths: {
-		base: '/Andy-Hopkins',
-		assets: '/Andy-Hopkins'
+		}),
+		paths: {
+			base: '/Andy-Hopkins',
+			assets: '/Andy-Hopkins'
+		}
 	}
+	// Comment the paths if wants to run in dev mode.
 };
 
 export default config;
