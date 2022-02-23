@@ -16,7 +16,7 @@ const config = {
 			fallback: null
 		}),
 		paths: {
-			base: '/Andy-Hopkins/docs',
+			base: '/Andy-Hopkins',
 			// assets: '/Andy-Hopkins'
 		}
 	}
