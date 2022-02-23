@@ -17,7 +17,7 @@ const config = {
 		}),
 		paths: {
 			base: '/Andy-Hopkins',
-			assets: '/Andy-Hopkins'
+			// assets: '/Andy-Hopkins'
 		}
 	}
 	// Comment the paths if wants to run in dev mode.
