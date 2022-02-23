@@ -20,6 +20,6 @@
     "svelte": "^3.44.0"
   },
   "type": "module",
-  "deploy": "npm run build && npx gh-pages -d build"
+  "deploy": "npm run build &&  gh-pages -d build"
 
 }
